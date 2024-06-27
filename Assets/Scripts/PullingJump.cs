@@ -20,6 +20,7 @@ public class PullingJump : MonoBehaviour
     public bool isDead;
     public int jumpCount = 0;
 
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -128,5 +129,4 @@ public class PullingJump : MonoBehaviour
             }
         }
     }
-
 }
